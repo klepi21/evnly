@@ -1,10 +1,10 @@
 export type Locale = "el" | "en";
 
-export const EMAIL = "hello@atrema.gr";
+export const EMAIL = "hello@evnly.io";
 
 const el = {
   meta: {
-    title: "atrema. Η senior ομάδα σου. Μόνο δική σου.",
+    title: "evnly. Η senior ομάδα σου. Μόνο δική σου.",
     description:
       "Senior μηχανικοί software για εταιρείες που δεν σηκώνουν λάθη. AI, υγεία, χρηματοοικονομικά, blockchain. Από την Πάτρα, για όλο τον κόσμο.",
   },
@@ -12,7 +12,7 @@ const el = {
     links: [
       { href: "#ti-kanoume", label: "Τι κάνουμε" },
       { href: "#pos-douleuoume", label: "Πώς δουλεύουμε" },
-      { href: "#giati", label: "Γιατί atrema" },
+      { href: "#giati", label: "Γιατί evnly" },
     ],
     cta: "Ας μιλήσουμε",
     switchLabel: "EN",
@@ -28,9 +28,9 @@ const el = {
     levelHint: "Κούνησε το ποντίκι. Η φυσαλίδα πάντα επιστρέφει στο κέντρο.",
   },
   meaning: {
-    word: "ατρέμα",
-    kind: "επίρρημα, αρχαία ελληνικά",
-    defs: ["Ακλόνητα.", "Με σταθερό χέρι.", "Χωρίς να τρέμει."],
+    word: "evenly",
+    kind: "επίρρημα, αγγλικά",
+    defs: ["Ομοιόμορφα.", "Σταθερά, χωρίς κλίση.", "Χωρίς σκαμπανεβάσματα."],
     close: "Έτσι γράφουμε κώδικα.",
   },
   fears: {
@@ -82,7 +82,7 @@ const el = {
     { value: 3, label: "χρόνια συνεχόμενης συνεργασίας χωρίς διακοπή" },
   ],
   exclusive: {
-    eyebrow: "Γιατί atrema",
+    eyebrow: "Γιατί evnly",
     text: "Δεν θα βρεις εδώ logos πελατών. Ούτε case studies με ονόματα. Ό,τι βλέπουμε στην εταιρεία σου μένει εκεί. Όταν δουλεύουμε για σένα, δουλεύουμε μόνο για σένα.",
   },
   values: {
@@ -103,7 +103,7 @@ const el = {
     fields: { name: "Όνομα", company: "Εταιρεία", email: "Email", message: "Τι χτίζεις;" },
     send: "Αποστολή",
     orWrite: "Ή γράψε μας απευθείας",
-    subject: "Γνωριμία με την atrema",
+    subject: "Γνωριμία με την evnly",
   },
   footer: {
     tagline: "Senior engineering. Πάτρα, Ελλάδα.",
@@ -116,7 +116,7 @@ export type Dict = typeof el;
 
 const en: Dict = {
   meta: {
-    title: "atrema. Your senior team. Yours alone.",
+    title: "evnly. Your senior team. Yours alone.",
     description:
       "Senior software engineers for companies that can't afford mistakes. AI, health, finance, blockchain. Based in Patras, Greece, working worldwide.",
   },
@@ -124,7 +124,7 @@ const en: Dict = {
     links: [
       { href: "#ti-kanoume", label: "What we do" },
       { href: "#pos-douleuoume", label: "How we work" },
-      { href: "#giati", label: "Why atrema" },
+      { href: "#giati", label: "Why evnly" },
     ],
     cta: "Let's talk",
     switchLabel: "ΕΛ",
@@ -140,9 +140,9 @@ const en: Dict = {
     levelHint: "Move your cursor. The bubble always returns to the centre.",
   },
   meaning: {
-    word: "ατρέμα",
-    kind: "adverb, ancient Greek",
-    defs: ["Unshaken.", "With a steady hand.", "Without trembling."],
+    word: "evenly",
+    kind: "adverb, English",
+    defs: ["Uniformly.", "Steady, without tilt.", "No highs and lows."],
     close: "That's how we write code.",
   },
   fears: {
@@ -194,7 +194,7 @@ const en: Dict = {
     { value: 3, label: "years of uninterrupted collaboration" },
   ],
   exclusive: {
-    eyebrow: "Why atrema",
+    eyebrow: "Why evnly",
     text: "You won't find client logos here. Or case studies with names. What we see inside your company stays there. When we work for you, we work only for you.",
   },
   values: {
@@ -215,7 +215,7 @@ const en: Dict = {
     fields: { name: "Name", company: "Company", email: "Email", message: "What are you building?" },
     send: "Send",
     orWrite: "Or write to us directly",
-    subject: "Intro with atrema",
+    subject: "Intro with evnly",
   },
   footer: {
     tagline: "Senior engineering. Patras, Greece.",

@@ -1,6 +1,6 @@
-# atrema.
+# evnly.
 
-Website for atrema, senior engineering from Patras, Greece.
+Website for evnly, senior engineering from Patras, Greece.
 
 - Next.js 16 (App Router), Tailwind CSS 4, Motion
 - Greek at `/`, English at `/en`

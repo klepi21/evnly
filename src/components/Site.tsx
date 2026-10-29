@@ -56,8 +56,8 @@ function Nav({ t }: { t: Dict }) {
       }`}
     >
       <div className={`${wrap} flex h-[72px] items-center justify-between`}>
-        <a href="#top" aria-label="atrema" className="text-lime">
-          <Logo className="h-[22px] w-auto" />
+        <a href="#top" aria-label="evnly" className="text-lime">
+          <Logo className="h-[30px] w-auto" />
         </a>
         <nav className="hidden items-center gap-9 text-sm text-stone md:flex">
           {t.nav.links.map((l) => (
@@ -493,7 +493,7 @@ function Footer({ t }: { t: Dict }) {
         </Reveal>
         <div className="mt-14 flex flex-col justify-between gap-4 text-sm text-stone sm:flex-row">
           <span>{t.footer.tagline}</span>
-          <span>© 2026 atrema. {t.footer.rights}</span>
+          <span>© 2026 evnly. {t.footer.rights}</span>
           <a href="#top" className="transition-colors hover:text-lime">{t.footer.top} ↑</a>
         </div>
       </div>

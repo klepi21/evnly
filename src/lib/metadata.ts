@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { dict, type Locale } from "./content";
 
-export const SITE_URL = "https://atrema.vercel.app";
+export const SITE_URL = "https://evnly.vercel.app";
 
 export function buildMetadata(locale: Locale): Metadata {
   const t = dict[locale].meta;
@@ -22,10 +22,10 @@ export function buildMetadata(locale: Locale): Metadata {
       title: t.title,
       description: t.description,
       url: locale === "el" ? "/" : "/en",
-      siteName: "atrema",
+      siteName: "evnly",
       locale: locale === "el" ? "el_GR" : "en_US",
       type: "website",
-      images: [{ url: "/og.png", width: 1200, height: 630, alt: "atrema" }],
+      images: [{ url: "/og.png", width: 1200, height: 630, alt: "evnly" }],
     },
     twitter: { card: "summary_large_image", title: t.title, description: t.description, images: ["/og.png"] },
   };
